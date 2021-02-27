@@ -28,6 +28,10 @@ public class Block {
         this.previousBlockHash = previousBlockHash;
     }
 
+    public String[] getData() {
+        return data;
+    }
+
     
     
 }
