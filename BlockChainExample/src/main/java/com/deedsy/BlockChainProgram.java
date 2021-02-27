@@ -8,7 +8,7 @@ public class BlockChainProgram
 {
     public static void main( String[] args )
     {
-        String aString = "Ricardo";
-        System.out.print(aString.hashCode());;
+        String [] transactionList = {"Ricardo pays 80€ to Raquel", "Ricardo pays 50€ to Alex"};
+        Block genesisBlock = new Block (transactionList,0);
     }
 }
